@@ -1,6 +1,6 @@
 package projectapps.kalkulatorhpp.models;
 
-//Anggota 1
+//Anggota 1: Zadit
 public class Ingredient {
     public String id;
     public String name;
