@@ -2,7 +2,7 @@ package projectapps.kalkulatorhpp.models;
 
 import java.time.LocalDateTime;
 
-//Anggota 4
+//Anggota 3: Ghevyra
 public class SaleRecord {
     public String productId;
     public int quantity;
