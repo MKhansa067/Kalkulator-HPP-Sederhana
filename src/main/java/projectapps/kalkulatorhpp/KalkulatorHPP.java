@@ -9,7 +9,7 @@ import projectapps.kalkulatorhpp.util.ConsoleUtil;
 import java.util.ArrayList;
 import java.util.List;
 
-//Anggota 7 (Main flow)
+//Anggota 7: Khansa (Main flow)
 public class KalkulatorHPP {
     private final StorageService storage = new StorageService();
     private final AuthService auth = new AuthService(storage);
