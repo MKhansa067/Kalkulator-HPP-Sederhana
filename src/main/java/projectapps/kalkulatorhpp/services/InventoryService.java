@@ -8,7 +8,7 @@ import java.util.Optional;
 import java.util.UUID;
 import java.util.stream.Collectors;
 
-//Anggota 1 (Inventory)
+//Anggota 1: Zadit (Inventory)
 public class InventoryService {
     private final UserData userData;
 
