@@ -3,7 +3,7 @@ package projectapps.kalkulatorhpp.models;
 import java.util.ArrayList;
 import java.util.List;
 
-//Anggota 3
+//Anggota 2: Ibnu
 public class Product {
     public String id;
     public String name;
