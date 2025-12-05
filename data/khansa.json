@@ -1,0 +1,83 @@
+{
+  "username": "khansa",
+  "password": "khansa",
+  "ingredients": [
+    {
+      "id": "5cacb178",
+      "name": "Tepung Terigu",
+      "unit": "kg",
+      "pricePerUnit": 10000.0,
+      "stock": 10.0
+    },
+    {
+      "id": "9f932901",
+      "name": "Gula",
+      "unit": "kg",
+      "pricePerUnit": 15000.0,
+      "stock": 10.0
+    },
+    {
+      "id": "39bab279",
+      "name": "Cokelat Bubuk",
+      "unit": "g",
+      "pricePerUnit": 4000.0,
+      "stock": 100.0
+    }
+  ],
+  "products": [
+    {
+      "id": "8cc34ed1",
+      "name": "Roti",
+      "yieldPerBatch": 10.0,
+      "timePerBatchMinutes": 30,
+      "recipe": [
+        {
+          "ingredientId": "5cacb178",
+          "amount": 2.0
+        },
+        {
+          "ingredientId": "9f932901",
+          "amount": 1.0
+        }
+      ],
+      "totalSold": 100
+    },
+    {
+      "id": "bb07db09",
+      "name": "Cookies",
+      "yieldPerBatch": 10.0,
+      "timePerBatchMinutes": 30,
+      "recipe": [
+        {
+          "ingredientId": "5cacb178",
+          "amount": 5.0
+        },
+        {
+          "ingredientId": "9f932901",
+          "amount": 2.0
+        },
+        {
+          "ingredientId": "39bab279",
+          "amount": 100.0
+        }
+      ],
+      "totalSold": 500
+    }
+  ],
+  "sales": [
+    {
+      "productId": "8cc34ed1",
+      "quantity": 100,
+      "pricePerUnit": 10000.0,
+      "note": "-",
+      "timestamp": "2025-12-05T18:21:56.905496200"
+    },
+    {
+      "productId": "bb07db09",
+      "quantity": 500,
+      "pricePerUnit": 90000.0,
+      "note": "mampus",
+      "timestamp": "2025-12-05T18:34:56.087713800"
+    }
+  ]
+}
