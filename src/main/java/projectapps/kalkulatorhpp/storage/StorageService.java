@@ -10,7 +10,7 @@ import java.io.FileWriter;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 
-//Anggota 6
+//Anggota 6: Firda
 public class StorageService {
     private static final String DATA_DIR = "data";
     private static final Gson gson = new GsonBuilder().setPrettyPrinting().create();
