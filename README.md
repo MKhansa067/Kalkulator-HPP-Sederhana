@@ -1,7 +1,7 @@
-# Kalkulator-HPP-Sederhana
-Kalkulator Harga Pokok Penjualan Sederhana (Java)
+# Kalkulator-HPP-Sederhana  
+Kalkulator Harga Pokok Penjualan Sederhana (Java)  
 
-## Jalankan Program
+## Jalankan Program  
 **1. Download File**  
 Klik tombol "Code" lalu download format ZIP  
 <img width="196" height="43" alt="image" src="https://github.com/user-attachments/assets/b9ff6201-1945-4526-b1b8-5d854d5f7f11" />  
@@ -19,7 +19,7 @@ Setelah dibuka, klik "File" lalu klik "Open Project" dan pilih folder yang sudah
 Lalu pilih folder program.  
 <img width="227" height="27" alt="image" src="https://github.com/user-attachments/assets/605d0ea6-c0a2-401d-8bec-7deeac702bd8" />
 
-**3. Run File**
+**3. Run File**  
 Setelah project terbuka, klik kanan pada mouse, lalu klik "Run File" seperti pada gambar ini.  
 <img width="542" height="275" alt="image" src="https://github.com/user-attachments/assets/5f4aa6bc-4eff-406d-b036-4cfbdf5ef13f" />  
 Dan program sudah berjalan.  
