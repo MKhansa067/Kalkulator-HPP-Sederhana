@@ -3,7 +3,7 @@ package projectapps.kalkulatorhpp.models;
 import java.util.ArrayList;
 import java.util.List;
 
-//Anggota 5
+//Anggota 5: Keira
 public class UserData {
     public String username;
     public String password; // Untuk demo: disimpan plain (tidak aman). Ganti hashing di produksi.
