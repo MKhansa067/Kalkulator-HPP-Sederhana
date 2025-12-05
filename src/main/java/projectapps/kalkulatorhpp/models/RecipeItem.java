@@ -1,6 +1,6 @@
 package projectapps.kalkulatorhpp.models;
 
-//Anggota 2
+//Anggota 4: Alghi
 public class RecipeItem {
     public String ingredientId;
     public double amount; // amount in the ingredient's unit
