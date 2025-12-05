@@ -3,7 +3,7 @@ package projectapps.kalkulatorhpp.auth;
 import projectapps.kalkulatorhpp.models.UserData;
 import projectapps.kalkulatorhpp.storage.StorageService;
 
-//Anggota 7
+//Anggota 5: Keira
 public class AuthService {
     private final StorageService storage;
 
