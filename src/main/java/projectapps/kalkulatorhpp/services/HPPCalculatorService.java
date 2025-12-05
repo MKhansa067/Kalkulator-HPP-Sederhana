@@ -7,7 +7,7 @@ import projectapps.kalkulatorhpp.models.RecipeItem;
 import java.util.HashMap;
 import java.util.Map;
 
-//Anggota 4 (HPP Calculator)
+//Anggota 4: Alghi (HPP Calculator)
 public class HPPCalculatorService {
 
     // hitung total biaya bahan per batch
