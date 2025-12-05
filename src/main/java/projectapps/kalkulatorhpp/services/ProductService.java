@@ -9,7 +9,7 @@ import java.util.Optional;
 import java.util.UUID;
 import java.util.stream.Collectors;
 
-//Anggota 2 (Product)
+//Anggota 2: Ibnu (Product)
 public class ProductService {
     private final UserData userData;
 
