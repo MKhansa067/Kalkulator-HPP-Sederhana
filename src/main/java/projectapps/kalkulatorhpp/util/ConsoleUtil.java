@@ -2,7 +2,7 @@ package projectapps.kalkulatorhpp.util;
 
 import java.util.Scanner;
 
-//Utility console
+//Anggota 6: Firda
 public class ConsoleUtil {
     public static final Scanner SC = new Scanner(System.in);
 
