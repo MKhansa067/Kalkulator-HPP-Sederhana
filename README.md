@@ -1,5 +1,5 @@
 # Kalkulator-HPP-Sederhana  
-Aplikasi Kalkulator Harga Pokok Penjualan (HPP) berbasis Java Command Line (CLI) yang dibuat oleh tim beranggotakan 7 orang. Aplikasi ini tidak menggunakan database, melainkan menyimpan seluruh data secara statis ke dalam file JSON lokal. Proyek ini dirancang sebagai latihan manajemen proyek, pembagian modul antar anggota, serta implementasi alur bisnis sederhana dalam Java.  
+Aplikasi Kalkulator Harga Pokok Penjualan (HPP) berbasis Java Command Line (CLI). Aplikasi ini tidak menggunakan database, melainkan menyimpan seluruh data secara statis ke dalam file JSON lokal. Proyek ini dirancang sebagai latihan manajemen proyek, pembagian modul antar anggota, serta implementasi alur bisnis sederhana dalam Java.  
 
 ## Jalankan Program  
 **1. Download File**  
@@ -82,3 +82,4 @@ Digunakan Gson untuk serialisasi/deserialisasi.
 - Gson (untuk JSON)
 - CLI / Command Line Interface
 
+# Flowchart
