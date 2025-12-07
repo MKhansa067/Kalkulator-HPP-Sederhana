@@ -9,6 +9,7 @@ Puji syukur kami panjatkan kepada Allah SWT. karena dengan rahmat dan karunia-Ny
 Meskipun kami telah mengerjakan laporan ini dengan teliti, namun kami menyadari bahwa di dalam laporan yang telah kami susun ini jauh dari kata sempurna sehingga kami harap saran serta masukan dari pembaca demi tersusunnya laporan praktikum selanjutnya yang lebih baik. Kami harap hasil laporan kami bermanfaat bagi pembaca.   
 
 ## Daftar Isi
+- [Kata Pengantar](#kata-pengantar)
 - [Jalankan Program](#jalankan-program)
 - [Deskripsi](#deskripsi)
 - [Flowchart](#flowchart)
