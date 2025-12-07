@@ -24,7 +24,9 @@ Setelah project terbuka, klik kanan pada mouse, lalu klik "Run File" seperti pad
 <img width="542" height="275" alt="image" src="https://github.com/user-attachments/assets/5f4aa6bc-4eff-406d-b036-4cfbdf5ef13f" />  
 Dan program sudah berjalan.  
 
-## Fitur Utama   
+
+## Deskripsi
+### Fitur Utama   
 **1. Sistem Login & Register**  
 - Setiap pengguna dapat membuat akun.
 - Data akun disimpan di data/user.json.
@@ -65,7 +67,7 @@ Seluruh data berikut disimpan dalam file JSON per user:
 - Data dashboard  
 Digunakan Gson untuk serialisasi/deserialisasi.  
 
-## Alur Program  
+### Alur Program  
 1. User membuka aplikasi → tampilan beranda
 2. Login / Register
 3. Masuk ke Dashboard
@@ -76,13 +78,14 @@ Digunakan Gson untuk serialisasi/deserialisasi.
 5. Data diperbarui dan disimpan ke file JSON secara otomatis
 6. User logout atau keluar aplikasi  
 
-## Teknologi yang Digunakan
+### Teknologi yang Digunakan
 - Java 17+
 - Maven (build tool NetBeans)
 - Gson (untuk JSON)
 - CLI / Command Line Interface
 
-# Flowchart
+
+## Flowchart
 **1. Halaman Beranda:**
 - Login
 - Register
@@ -127,6 +130,24 @@ Digunakan Gson untuk serialisasi/deserialisasi.
 **8. Simpan & Exit**   
 ![Flowchart HPP-8](docs/flowchart8.png)   
 
-# Screenshot per Menu
+
+## Screenshot per Menu   
+**1. Halaman Beranda:**   
+![Menu HPP-1](docs/menu1.png)   
+
+**2. Halaman Dashboard:**  
+![Menu HPP-2](docs/menu2.png)   
+
+**3. Kelola Bahan Baku:**   
+![Menu HPP-3](docs/menu3.png)   
+
+**4. Kelola Produk:**   
+![Menu HPP-4](docs/menu4.png)   
+
+**5. Kalkulator HPP**  
+![Menu HPP-5](docs/menu5.png)   
+
+**6. Penjualan (tambah record)**  
+![Menu HPP-6](docs/menu6.png)   
 
 
