@@ -1,5 +1,5 @@
 # Kalkulator-HPP-Sederhana  
-Kalkulator Harga Pokok Penjualan Sederhana (Java)  
+Aplikasi Kalkulator Harga Pokok Penjualan (HPP) berbasis Java Command Line (CLI) yang dibuat oleh tim beranggotakan 7 orang. Aplikasi ini tidak menggunakan database, melainkan menyimpan seluruh data secara statis ke dalam file JSON lokal. Proyek ini dirancang sebagai latihan manajemen proyek, pembagian modul antar anggota, serta implementasi alur bisnis sederhana dalam Java.  
 
 ## Jalankan Program  
 **1. Download File**  
@@ -24,17 +24,45 @@ Setelah project terbuka, klik kanan pada mouse, lalu klik "Run File" seperti pad
 <img width="542" height="275" alt="image" src="https://github.com/user-attachments/assets/5f4aa6bc-4eff-406d-b036-4cfbdf5ef13f" />  
 Dan program sudah berjalan.  
 
-## Fitur yang disediakan  
-**I. Halaman Beranda**  
-1. Login
-2. Register
-3. Exit  
+## Fitur Utama   
+**1. Sistem Login & Register**  
+- Setiap pengguna dapat membuat akun.
+- Data akun disimpan di data/user.json.
+- Mendukung login, logout, serta penyimpanan progress per user.  
 
-**II. Halaman Dashboard**  
-1. Ringkasan Dashboard
-2. Kelola Bahan Baku
-3. Kelola Produk
-4. Kalkulator HPP
-5. Penjualan
-6. Logout
-7. Simpan & Exit  
+**2. Dashboard**  
+Menampilkan rangkuman data:  
+- Total produk
+- Total pendapatan
+- Rata-rata harga jual
+- Produk terlaris (berdasarkan data penjualan statis)
+
+**3. Manajemen Bahan Baku**  
+- Tambah bahan baku: nama bahan, satuan (g, kg, ml, l, pcs, pack), harga per satuan, stok
+- Tampilkan semua bahan
+- Edit bahan baku
+- Cari bahan baku
+
+**4. Manajemen Produk**  
+- Tambah produk: nama produk, yield per batch, waktu kerja per batch, pemilihan bahan baku beserta jumlahnya (resep)
+- Edit produk
+- Cari produk
+- Setiap produk memiliki komponen: Ingredients, RecipeItem, dan harga otomatis dihitung lewat service.
+
+**5. Kalkulator HPP**  
+Menghitung HPP per unit dan harga jual berdasarkan margin yang ditentukan:
+- Biaya bahan per unit
+- Biaya pekerja per unit
+- Total HPP per unit
+- Harga jual dengan margin (10% – 100%)
+- Estimasi pendapatan per bulan
+
+**6. Penyimpan Data JSON**  
+Seluruh data berikut disimpan dalam file JSON per user:
+- Bahan baku
+- Produk
+- Rekam penjualan
+- Data dashboard  
+Digunakan Gson untuk serialisasi/deserialisasi.  
+
+## Alur Program
