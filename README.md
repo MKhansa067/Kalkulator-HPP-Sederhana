@@ -1,6 +1,13 @@
 # Kalkulator-HPP-Sederhana  
 Aplikasi Kalkulator Harga Pokok Penjualan (HPP) berbasis Java Command Line (CLI). Aplikasi ini tidak menggunakan database, melainkan menyimpan seluruh data secara statis ke dalam file JSON lokal. Proyek ini dirancang sebagai latihan manajemen proyek, pembagian modul antar anggota, serta implementasi alur bisnis sederhana dalam Java.  
 
+## Kata Pengantar
+Puji syukur kami panjatkan kepada Allah SWT. karena dengan rahmat dan karunia-Nya kami bisa menyelesaikan laporan tugas akhir statistika yang berjudul “Kalkulator HPP” ini dengan baik dan tepat pada waktunya. Tidak lupa kami  menyampaikan rasa terima kasih kepada nama nama berikut:    
+1. Bapak Ichsan Taufik ST., MT. selaku dosen mata kuliah Algoritma dan Struktur Data yang telah membimbing dan  mengajar kami.   
+2. Orang Tua kami yang telah mendoakan serta memberi dukungan kepada kami dalam pengerjaan laporan ini.   
+3. Rekan-rekan kelompok 2 yang telah memberikan kontribusi berupa bantuan dalam pengerjaan dan lain-lain sehingga laporan makalah ini bisa selesai pada waktu yang telah ditentukan.   
+Meskipun kami telah mengerjakan laporan ini dengan teliti, namun kami menyadari bahwa di dalam laporan yang telah kami susun ini jauh dari kata sempurna sehingga kami harap saran serta masukan dari pembaca demi tersusunnya laporan praktikum selanjutnya yang lebih baik. Kami harap hasil laporan kami bermanfaat bagi pembaca.   
+
 ## Daftar Isi
 - [Jalankan Program](#jalankan-program)
 - [Deskripsi](#deskripsi)
