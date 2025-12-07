@@ -51,6 +51,7 @@ Meskipun kami telah mengerjakan laporan ini dengan teliti, namun kami menyadari 
 </div>
 
 ## Daftar Isi
+- [Cover](#cover)
 - [Kata Pengantar](#kata-pengantar)
 - [Jalankan Program](#jalankan-program)
 - [Deskripsi](#deskripsi)
