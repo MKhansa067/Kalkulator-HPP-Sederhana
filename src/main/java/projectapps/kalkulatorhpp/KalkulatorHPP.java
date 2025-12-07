@@ -139,7 +139,13 @@ public class KalkulatorHPP {
                 case "3" -> inv.listIngredients().forEach(i -> System.out.println(i.toString()));
                 case "4" -> {
                     String q = ConsoleUtil.readLine("Masukkan nama atau ID: ");
-                    inv.searchIngredients(q).forEach(i -> System.out.println(i.toString()));
+                    List<Ingredient> result = inv.searchIngredients(q);
+
+                    if (result.isEmpty()) {
+                        System.out.println("Bahan tidak ditemukan.");
+                    } else {
+                        result.forEach(i -> System.out.println(i.toString()));
+                    }
                 }
                 case "5" -> { return; }
                 default -> System.out.println("Pilihan tidak valid");
@@ -192,7 +198,13 @@ public class KalkulatorHPP {
                 });
                 case "4" -> {
                     String q = ConsoleUtil.readLine("Nama atau ID: ");
-                    ps.searchProducts(q).forEach(p -> System.out.println(p.toString()));
+                    List<Product> result = ps.searchProducts(q);
+
+                    if (result.isEmpty()) {
+                        System.out.println("Produk tidak ditemukan.");
+                    } else {
+                        result.forEach(p -> System.out.println(p.toString()));
+                    }
                 }
                 case "5" -> { return; }
                 default -> System.out.println("Pilihan tidak valid");
