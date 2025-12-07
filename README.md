@@ -1,5 +1,7 @@
 # Kalkulator-HPP-Sederhana  
+<div align="justify">
 Aplikasi Kalkulator Harga Pokok Penjualan (HPP) berbasis Java Command Line (CLI). Aplikasi ini tidak menggunakan database, melainkan menyimpan seluruh data secara statis ke dalam file JSON lokal. Proyek ini dirancang sebagai latihan manajemen proyek, pembagian modul antar anggota, serta implementasi alur bisnis sederhana dalam Java.  
+</div>
 
 ## Cover
 <h2 align="center">Laporan: Kalkulator HPP</h2>
@@ -38,13 +40,15 @@ Universitas Islam Negeri Sunan Gunung Djati Bandung<br>
 
 
 ## Kata Pengantar
-Puji syukur kami panjatkan kepada Allah SWT. karena dengan rahmat dan karunia-Nya kami bisa menyelesaikan laporan tugas akhir statistika yang berjudul “Kalkulator HPP” ini dengan baik dan tepat pada waktunya. Tidak lupa kami  menyampaikan rasa terima kasih kepada nama nama berikut:    
+<div align="justify">
+Puji syukur kami panjatkan kepada Allah SWT. karena dengan rahmat dan karunia-Nya kami bisa menyelesaikan laporan tugas akhir statistika yang berjudul “Kalkulator HPP” ini dengan baik dan tepat pada waktunya. Tidak lupa kami  menyampaikan rasa terima kasih kepada nama nama berikut:  
 
 1. Bapak Ichsan Taufik ST., MT. selaku dosen mata kuliah Algoritma dan Struktur Data yang telah membimbing dan  mengajar kami.   
 2. Orang Tua kami yang telah mendoakan serta memberi dukungan kepada kami dalam pengerjaan laporan ini.   
 3. Rekan-rekan kelompok 2 yang telah memberikan kontribusi berupa bantuan dalam pengerjaan dan lain-lain sehingga laporan makalah ini bisa selesai pada waktu yang telah ditentukan.
 
 Meskipun kami telah mengerjakan laporan ini dengan teliti, namun kami menyadari bahwa di dalam laporan yang telah kami susun ini jauh dari kata sempurna sehingga kami harap saran serta masukan dari pembaca demi tersusunnya laporan praktikum selanjutnya yang lebih baik. Kami harap hasil laporan kami bermanfaat bagi pembaca.   
+</div>
 
 ## Daftar Isi
 - [Kata Pengantar](#kata-pengantar)
@@ -56,25 +60,38 @@ Meskipun kami telah mengerjakan laporan ini dengan teliti, namun kami menyadari 
 
 ## Jalankan Program  
 **1. Download File**  
-Klik tombol "Code" lalu download format ZIP  
+Klik tombol "Code" lalu download format ZIP 
+<div align="center">
 <img width="196" height="43" alt="image" src="https://github.com/user-attachments/assets/b9ff6201-1945-4526-b1b8-5d854d5f7f11" />  
+</div>
+
 Atau bisa dengan perintah Command Prompt:  
 ```cmd
 cd <folder yang mau kamu jadikan tempat simpan folder project ini>
 git clone https://github.com/MKhansa067/Kalkulator-HPP-Sederhana.git
 ```
+
 Bisa disimpan di folder mana saja.  
 
 **2. Buka Project**  
 Buka Apache Netbeans IDE 21, jika belum install, bisa melalui link: https://archive.apache.org/dist/netbeans/netbeans-installers/21/Apache-NetBeans-21-bin-windows-x64.exe  
 Setelah dibuka, klik "File" lalu klik "Open Project" dan pilih folder yang sudah di download.  
+
+<p align="center">
 <img width="344" height="140" alt="image" src="https://github.com/user-attachments/assets/d5fdd73d-97f5-41a3-8cd8-2f877ba5aa5d" />  
+</p>
+
 Lalu pilih folder program.  
+<p align="center">
 <img width="227" height="27" alt="image" src="https://github.com/user-attachments/assets/605d0ea6-c0a2-401d-8bec-7deeac702bd8" />
+</p>
 
 **3. Run File**  
 Setelah project terbuka, klik kanan pada mouse, lalu klik "Run File" seperti pada gambar ini.  
+<p align="center">
 <img width="542" height="275" alt="image" src="https://github.com/user-attachments/assets/5f4aa6bc-4eff-406d-b036-4cfbdf5ef13f" />  
+</p>
+
 Dan program sudah berjalan.  
 
 
@@ -139,90 +156,152 @@ Digunakan Gson untuk serialisasi/deserialisasi.
 
 
 ## Flowchart
-**1. Halaman Beranda:**
-- Login
-- Register
-- Exit   
-![Flowchart HPP-1](docs/flowchart1.png)
 
-**2. Halaman Dashboard:**
-- Lihat ringkasan dashboard
-- Kelola Bahan Baku
-- Kelola Produk
-- Kalkulator HPP
-- Penjualan (tambah record)
-- Logout
+**1. Halaman Beranda**
+- Login  
+- Register  
+- Exit  
+
+<p align="center">
+  <img src="docs/flowchart1.png" alt="Flowchart HPP-1">
+</p>
+
+**2. Halaman Dashboard**
+- Lihat ringkasan dashboard  
+- Kelola Bahan Baku  
+- Kelola Produk  
+- Kalkulator HPP  
+- Penjualan (tambah record)  
+- Logout  
 - Simpan & Exit  
-![Flowchart HPP-2](docs/flowchart2.png)
 
-**3. Kelola Bahan Baku:**
-- Tambah bahan baku
-- Edit bahan baku
-- Tampilkan semua
-- Cari bahan baku
+<p align="center">
+  <img src="docs/flowchart2.png" alt="Flowchart HPP-2">
+</p>
+
+**3. Kelola Bahan Baku**
+- Tambah bahan baku  
+- Edit bahan baku  
+- Tampilkan semua  
+- Cari bahan baku  
 - Kembali  
-![Flowchart HPP-3](docs/flowchart3.png)
 
-**4. Kelola Produk:**
-- Tambah produk
-- Edit produk
-- Tampilkan semua
-- Cari produk
+<p align="center">
+  <img src="docs/flowchart3.png" alt="Flowchart HPP-3">
+</p>
+
+**4. Kelola Produk**
+- Tambah produk  
+- Edit produk  
+- Tampilkan semua  
+- Cari produk  
 - Kembali  
-![Flowchart HPP-4](docs/flowchart4.png)
 
-**5. Kalkulator HPP**   
-![Flowchart HPP-5](docs/flowchart5.png)   
+<p align="center">
+  <img src="docs/flowchart4.png" alt="Flowchart HPP-4">
+</p>
 
-**6. Penjualan (tambah record)**   
-![Flowchart HPP-6](docs/flowchart6.png)   
+**5. Kalkulator HPP**
 
-**7. Logout**   
-![Flowchart HPP-7](docs/flowchart7.png)   
+<p align="center">
+  <img src="docs/flowchart5.png" alt="Flowchart HPP-5">
+</p>
 
-**8. Simpan & Exit**   
-![Flowchart HPP-8](docs/flowchart8.png)   
+**6. Penjualan (Tambah Record)**
+
+<p align="center">
+  <img src="docs/flowchart6.png" alt="Flowchart HPP-6">
+</p>
+
+**7. Logout**
+
+<p align="center">
+  <img src="docs/flowchart7.png" alt="Flowchart HPP-7">
+</p>
+
+**8. Simpan & Exit**
+
+<p align="center">
+  <img src="docs/flowchart8.png" alt="Flowchart HPP-8">
+</p>
 
 
-## Screenshot per Menu   
-**1. Halaman Beranda:**   
-![Menu HPP-1](docs/menu1.png)   
+---
 
-**2. Halaman Dashboard:**  
-![Menu HPP-2](docs/menu2.png)   
+## Screenshot per Menu
 
-**3. Kelola Bahan Baku:**   
-![Menu HPP-3](docs/menu3.png)   
+**1. Halaman Beranda**
 
-**4. Kelola Produk:**   
-![Menu HPP-4](docs/menu4.png)   
+<p align="center">
+  <img src="docs/menu1.png" alt="Menu HPP-1">
+</p>
 
-**5. Kalkulator HPP**  
-![Menu HPP-5](docs/menu5.png)   
+**2. Halaman Dashboard**
 
-**6. Penjualan (tambah record)**  
-![Menu HPP-6](docs/menu6.png)   
+<p align="center">
+  <img src="docs/menu2.png" alt="Menu HPP-2">
+</p>
 
-## Tugas masing-masing Anggota   
-**1. Khansa**   
-Bertanggung jawab atas program KalkulatorHPP.java, yang berfungsi sebagai menu utama dan pengatur alur aplikasi secara keseluruhan, memastikan pengguna dapat login, bernavigasi ke semua sub-menu (bahan, produk, HPP, dashboard), dan memanggil semua fungsi layanan lain dalam urutan yang benar.   
+**3. Kelola Bahan Baku**
 
-**2. Keira**   
-Mengembangkan program AuthService dan model UserData, yang bertugas mengelola autentikasi (login/register) dan bertindak sebagai container sentral untuk semua data pengguna (bahan, produk, penjualan), memastikan setiap progres dan konfigurasi tersimpan dan digunakan secara terpisah per pengguna.   
+<p align="center">
+  <img src="docs/menu3.png" alt="Menu HPP-3">
+</p>
 
-**3. Zadit**   
-Zadit membuat program InventoryService dan model Ingredient, yang berfungsi penuh untuk mengelola semua data bahan baku; ia menangani penambahan, pengeditan, pencarian, dan tampilan stok bahan baku, menjadi sumber data utama mengenai harga dan ketersediaan material.   
+**4. Kelola Produk**
 
-**4. Ibnu**   
-Mengembangkan program ProductService dan model Product, yang fokus pada manajemen produk olahan dan resep; program ini memungkinkan pembuatan dan pengeditan produk serta menghubungkan produk tersebut dengan bahan baku yang ada (disediakan oleh Zadit) untuk merumuskan daftar resep yang dibutuhkan.   
+<p align="center">
+  <img src="docs/menu4.png" alt="Menu HPP-4">
+</p>
 
-**5. Alghifari**   
-Menyusun program HPPCalculatorService dan model RecipeItem, yang berfungsi sebagai mesin penghitung utama, mengambil resep dari produk (Ibnu) dan harga bahan (Zadit) untuk menghitung Harga Pokok Penjualan (HPP) per batch dan per unit, serta menentukan harga jual dengan margin.   
+**5. Kalkulator HPP**
 
-**6. Ghevyra**   
-Membuat program DashboardService dan model SaleRecord, yang bertugas mengumpulkan dan menyajikan laporan kinerja bisnis; fungsinya adalah menghitung total pendapatan, rata-rata harga, dan menentukan produk terlaris berdasarkan catatan penjualan statis yang dimasukkan.   
+<p align="center">
+  <img src="docs/menu5.png" alt="Menu HPP-5">
+</p>
 
-**7. Firda**   
-Bertanggung jawab atas program StorageService dan ConsoleUtil, yang menyediakan fungsi pendukung penting: StorageService mengurus semua interaksi dengan file user.json (membaca/menulis data), sementara ConsoleUtil memastikan semua input dari pengguna melalui konsol diterima dengan aman dan valid oleh semua program service lainnya.   
+**6. Penjualan (Tambah Record)**
+
+<p align="center">
+  <img src="docs/menu6.png" alt="Menu HPP-6">
+</p>
+
+
+## Tugas masing-masing Anggota
+
+**1. Khansa**  
+<p align="justify">
+Bertanggung jawab atas program <i>KalkulatorHPP.java</i>, yang berfungsi sebagai menu utama dan pengatur alur aplikasi secara keseluruhan. Program ini memastikan pengguna dapat login, bernavigasi ke semua sub-menu (bahan, produk, HPP, dashboard), serta memanggil seluruh service lain dalam urutan yang benar.
+</p>
+
+**2. Keira**  
+<p align="justify">
+Mengembangkan <i>AuthService</i> dan model <i>UserData</i>, yang bertugas mengelola autentikasi (login/register) sekaligus menjadi container utama untuk seluruh data pengguna (bahan, produk, penjualan). Data masing-masing pengguna tersimpan terpisah dan digunakan sesuai sesi pengguna.
+</p>
+
+**3. Zadit**  
+<p align="justify">
+Membuat <i>InventoryService</i> dan model <i>Ingredient</i>, yang mengelola seluruh data bahan baku. Fungsinya meliputi penambahan, pengeditan, pencarian, dan penampilan stok bahan baku. Modul ini menjadi sumber data utama mengenai harga dan ketersediaan material.
+</p>
+
+**4. Ibnu**  
+<p align="justify">
+Mengembangkan <i>ProductService</i> dan model <i>Product</i>, yang fokus pada manajemen produk dan resep. Modul ini memungkinkan pembuatan serta pengeditan produk, sekaligus menghubungkan produk dengan bahan-bahan (yang dikelola oleh Zadit) untuk membentuk struktur resep.
+</p>
+
+**5. Alghifari**  
+<p align="justify">
+Menyusun <i>HPPCalculatorService</i> dan model <i>RecipeItem</i>, yang menjadi mesin perhitungan utama. Service ini menggunakan data resep dari Ibnu dan harga bahan dari Zadit untuk menghitung Harga Pokok Penjualan (HPP) per batch dan per unit, serta membantu menentukan harga jual produk.
+</p>
+
+**6. Ghevyra**  
+<p align="justify">
+Membuat <i>DashboardService</i> dan model <i>SaleRecord</i>, yang berfungsi mengumpulkan dan menampilkan ringkasan performa bisnis. Modul ini menghitung total pendapatan, harga rata-rata, serta produk terlaris berdasarkan catatan penjualan yang dimasukkan oleh pengguna.
+</p>
+
+**7. Firda**  
+<p align="justify">
+Bertanggung jawab atas <i>StorageService</i> dan <i>ConsoleUtil</i>. <i>StorageService</i> menangani penyimpanan data melalui file <code>user.json</code> (read/write), sedangkan <i>ConsoleUtil</i> memastikan semua input dari pengguna tervalidasi dan aman sebelum diproses oleh service lain.
+</p>
 
 ### Sekian, Terima Kasih.
