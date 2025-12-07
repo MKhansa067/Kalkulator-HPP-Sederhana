@@ -150,4 +150,26 @@ Digunakan Gson untuk serialisasi/deserialisasi.
 **6. Penjualan (tambah record)**  
 ![Menu HPP-6](docs/menu6.png)   
 
+## Tugas masing-masing Anggota   
+**1. Khansa**   
+Bertanggung jawab atas program KalkulatorHPP.java, yang berfungsi sebagai menu utama dan pengatur alur aplikasi secara keseluruhan, memastikan pengguna dapat login, bernavigasi ke semua sub-menu (bahan, produk, HPP, dashboard), dan memanggil semua fungsi layanan lain dalam urutan yang benar.   
 
+**2. Keira**   
+Mengembangkan program AuthService dan model UserData, yang bertugas mengelola autentikasi (login/register) dan bertindak sebagai container sentral untuk semua data pengguna (bahan, produk, penjualan), memastikan setiap progres dan konfigurasi tersimpan dan digunakan secara terpisah per pengguna.   
+
+**3. Zadit**   
+Zadit membuat program InventoryService dan model Ingredient, yang berfungsi penuh untuk mengelola semua data bahan baku; ia menangani penambahan, pengeditan, pencarian, dan tampilan stok bahan baku, menjadi sumber data utama mengenai harga dan ketersediaan material.   
+
+**4. Ibnu**   
+Mengembangkan program ProductService dan model Product, yang fokus pada manajemen produk olahan dan resep; program ini memungkinkan pembuatan dan pengeditan produk serta menghubungkan produk tersebut dengan bahan baku yang ada (disediakan oleh Zadit) untuk merumuskan daftar resep yang dibutuhkan.   
+
+**5. Alghifari**   
+Menyusun program HPPCalculatorService dan model RecipeItem, yang berfungsi sebagai mesin penghitung utama, mengambil resep dari produk (Ibnu) dan harga bahan (Zadit) untuk menghitung Harga Pokok Penjualan (HPP) per batch dan per unit, serta menentukan harga jual dengan margin.   
+
+**6. Ghevyra**   
+Membuat program DashboardService dan model SaleRecord, yang bertugas mengumpulkan dan menyajikan laporan kinerja bisnis; fungsinya adalah menghitung total pendapatan, rata-rata harga, dan menentukan produk terlaris berdasarkan catatan penjualan statis yang dimasukkan.   
+
+**7. Firda**   
+Bertanggung jawab atas program StorageService dan ConsoleUtil, yang menyediakan fungsi pendukung penting: StorageService mengurus semua interaksi dengan file user.json (membaca/menulis data), sementara ConsoleUtil memastikan semua input dari pengguna melalui konsol diterima dengan aman dan valid oleh semua program service lainnya.   
+
+### Sekian, Terima Kasih.
