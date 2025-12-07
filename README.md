@@ -127,5 +127,6 @@ Digunakan Gson untuk serialisasi/deserialisasi.
 **8. Simpan & Exit**   
 ![Flowchart HPP-8](docs/flowchart8.png)   
 
-# Code
-![Code Program]()
+# Screenshot per Menu
+
+
