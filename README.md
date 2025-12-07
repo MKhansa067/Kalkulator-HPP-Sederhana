@@ -65,4 +65,20 @@ Seluruh data berikut disimpan dalam file JSON per user:
 - Data dashboard  
 Digunakan Gson untuk serialisasi/deserialisasi.  
 
-## Alur Program
+## Alur Program  
+1. User membuka aplikasi → tampilan beranda
+2. Login / Register
+3. Masuk ke Dashboard
+4. Pilih modul:
+   - Bahan Baku
+   - Produk
+   - Kalkulator HPP
+5. Data diperbarui dan disimpan ke file JSON secara otomatis
+6. User logout atau keluar aplikasi  
+
+## Teknologi yang Digunakan
+- Java 17+
+- Maven (build tool NetBeans)
+- Gson (untuk JSON)
+- CLI / Command Line Interface
+
