@@ -1,11 +1,49 @@
 # Kalkulator-HPP-Sederhana  
 Aplikasi Kalkulator Harga Pokok Penjualan (HPP) berbasis Java Command Line (CLI). Aplikasi ini tidak menggunakan database, melainkan menyimpan seluruh data secara statis ke dalam file JSON lokal. Proyek ini dirancang sebagai latihan manajemen proyek, pembagian modul antar anggota, serta implementasi alur bisnis sederhana dalam Java.  
 
+## Cover
+<h2 align="center">Laporan: Kalkulator HPP</h2>
+
+<h3 align="center">
+Disusun untuk memenuhi tugas mata kuliah Algoritma dan Struktur Data<br>
+Dosen Pengampu: Ichsan Taufik ST., MT.
+</h3>
+
+<p align="center">
+  <img src="docs/logo-uinsgd.png" alt="Logo UIN SGD" width="200">
+</p>
+
+<h3 align="center">Disusun Oleh:<br>Kelompok 2</h3>
+
+<div align="center">
+
+<pre>
+Firda Azzahra                        1247050059
+Ghevyra Nur Fadilah                  1247050011
+Ibnu Rafiq Hariri                    1247050068
+Keira Arina Khalisha                 1247050056
+Muhammad Al Ghifari Gunawan          1247050118
+Muhammad Khansa Khalifaturohman      1247050115
+Muhammad Zadit Taqwa Indana Zulva    1247050034
+</pre>
+
+</div>
+
+<h2 align="center">
+Fakultas Sains dan Teknologi<br>
+Program Studi Teknik Informatika<br>
+Universitas Islam Negeri Sunan Gunung Djati Bandung<br>
+2025
+</h2>
+
+
 ## Kata Pengantar
 Puji syukur kami panjatkan kepada Allah SWT. karena dengan rahmat dan karunia-Nya kami bisa menyelesaikan laporan tugas akhir statistika yang berjudul “Kalkulator HPP” ini dengan baik dan tepat pada waktunya. Tidak lupa kami  menyampaikan rasa terima kasih kepada nama nama berikut:    
+
 1. Bapak Ichsan Taufik ST., MT. selaku dosen mata kuliah Algoritma dan Struktur Data yang telah membimbing dan  mengajar kami.   
 2. Orang Tua kami yang telah mendoakan serta memberi dukungan kepada kami dalam pengerjaan laporan ini.   
-3. Rekan-rekan kelompok 2 yang telah memberikan kontribusi berupa bantuan dalam pengerjaan dan lain-lain sehingga laporan makalah ini bisa selesai pada waktu yang telah ditentukan.   
+3. Rekan-rekan kelompok 2 yang telah memberikan kontribusi berupa bantuan dalam pengerjaan dan lain-lain sehingga laporan makalah ini bisa selesai pada waktu yang telah ditentukan.
+
 Meskipun kami telah mengerjakan laporan ini dengan teliti, namun kami menyadari bahwa di dalam laporan yang telah kami susun ini jauh dari kata sempurna sehingga kami harap saran serta masukan dari pembaca demi tersusunnya laporan praktikum selanjutnya yang lebih baik. Kami harap hasil laporan kami bermanfaat bagi pembaca.   
 
 ## Daftar Isi
