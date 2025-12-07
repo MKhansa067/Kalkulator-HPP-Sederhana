@@ -83,3 +83,49 @@ Digunakan Gson untuk serialisasi/deserialisasi.
 - CLI / Command Line Interface
 
 # Flowchart
+**1. Halaman Beranda:**
+- Login
+- Register
+- Exit   
+![Flowchart HPP-1](docs/flowchart1.png)
+
+**2. Halaman Dashboard:**
+- Lihat ringkasan dashboard
+- Kelola Bahan Baku
+- Kelola Produk
+- Kalkulator HPP
+- Penjualan (tambah record)
+- Logout
+- Simpan & Exit  
+![Flowchart HPP-2](docs/flowchart2.png)
+
+**3. Kelola Bahan Baku:**
+- Tambah bahan baku
+- Edit bahan baku
+- Tampilkan semua
+- Cari bahan baku
+- Kembali  
+![Flowchart HPP-3](docs/flowchart3.png)
+
+**4. Kelola Produk:**
+- Tambah produk
+- Edit produk
+- Tampilkan semua
+- Cari produk
+- Kembali  
+![Flowchart HPP-4](docs/flowchart4.png)
+
+**5. Kalkulator HPP**   
+![Flowchart HPP-5](docs/flowchart5.png)   
+
+**6. Penjualan (tambah record)**   
+![Flowchart HPP-6](docs/flowchart6.png)   
+
+**7. Logout**   
+![Flowchart HPP-7](docs/flowchart7.png)   
+
+**8. Simpan & Exit**   
+![Flowchart HPP-8](docs/flowchart8.png)   
+
+# Code
+![Code Program]()
