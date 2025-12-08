@@ -180,7 +180,13 @@ Digunakan Gson untuk serialisasi/deserialisasi.
   <img src="docs/flowchart2.png" alt="Flowchart HPP-2">
 </p>
 
-**3. Kelola Bahan Baku**
+**3. Ringkasan Dashboard**
+
+<p align="center">
+  <img src="docs/flowchart3.png" alt="Flowchart HPP-3">
+</p>
+
+**4. Kelola Bahan Baku**
 - Tambah bahan baku  
 - Edit bahan baku  
 - Tampilkan semua  
@@ -188,10 +194,10 @@ Digunakan Gson untuk serialisasi/deserialisasi.
 - Kembali  
 
 <p align="center">
-  <img src="docs/flowchart3.png" alt="Flowchart HPP-3">
+  <img src="docs/flowchart4.png" alt="Flowchart HPP-4">
 </p>
 
-**4. Kelola Produk**
+**5. Kelola Produk**
 - Tambah produk  
 - Edit produk  
 - Tampilkan semua  
@@ -199,22 +205,16 @@ Digunakan Gson untuk serialisasi/deserialisasi.
 - Kembali  
 
 <p align="center">
-  <img src="docs/flowchart4.png" alt="Flowchart HPP-4">
-</p>
-
-**5. Kalkulator HPP**
-
-<p align="center">
   <img src="docs/flowchart5.png" alt="Flowchart HPP-5">
 </p>
 
-**6. Penjualan (Tambah Record)**
+**6. Kalkulator HPP**
 
 <p align="center">
   <img src="docs/flowchart6.png" alt="Flowchart HPP-6">
 </p>
 
-**7. Logout**
+**7. Penjualan (Tambah Record)**
 
 <p align="center">
   <img src="docs/flowchart7.png" alt="Flowchart HPP-7">
